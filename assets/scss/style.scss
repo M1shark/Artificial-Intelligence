@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+//var
+@import "var.scss";
+//var
+//global style
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    background: $dark;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+.btn{
+    padding: 15px 30px;
+    background: $blue;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    border: none;
+    &:hover{
+        background: $grey;
+    }
+}
+.container{
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.main{
+    overflow: hidden;
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: $white;
+}
+.text{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    color: $grey;
+}
+//global style
+
+//components
+@import "components/header.scss";
+@import "components/intro.scss";
+@import "components/learning.scss";
+@import "components/about.scss";
+//components
+//adaptive
+@import "adaptive.scss";
+//adaptive

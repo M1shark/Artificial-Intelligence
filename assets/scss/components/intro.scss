@@ -1,0 +1,69 @@
+.intro{
+    padding: 190px 0 110px 0;
+    background-color:rgb(14, 22, 34);
+    &-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &-content{
+       max-width: 595px;
+    }
+    &-title{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+        color: $blue;
+        margin-bottom: 10px;
+    }
+    &-sub__title{
+        font-weight: 800;
+        font-size: 55px;
+        line-height: 130%;
+        color: $white;
+        margin-bottom: 40px;
+    }
+    &-text{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 160%;
+        color: $grey;
+        margin-bottom: 50px;
+    }
+    &-btn{
+        display: flex;
+        &__item{
+            display: flex;
+            align-items: center;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 27px;
+            color: $white;
+            margin-left: 20px;
+            &:first-child{
+                margin-left: 0px;
+            }
+            &:nth-child(2){
+                &::before{
+                    content: url(../img/intro/play.svg);
+                    margin-right: 10px;
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+    &-company{
+        display: flex;
+        width: 100%;
+        margin-top: 90px;
+        &__list{
+            display: flex;  
+        }
+        &__item{
+            margin-left: 70px;
+            &:first-child{
+                margin-left: 0;
+            }
+        }
+    }
+}

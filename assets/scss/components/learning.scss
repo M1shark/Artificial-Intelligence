@@ -1,0 +1,24 @@
+.learning{
+    padding: 130px 0;
+    &-container{
+        display: flex;
+        align-items: center;
+    }
+    &-content{
+        max-width: 432px;
+        order: 2;
+        margin-left: 68px;
+    }
+    &-title{
+        margin-bottom: 30px;
+    }
+    &-text{
+        margin-bottom: 65px;
+    }
+    &-btn{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: $white;
+    }
+}
