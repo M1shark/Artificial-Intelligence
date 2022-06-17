@@ -87,6 +87,11 @@
         }
     }
     //about
+    //footer
+    .footer{
+        padding: 50px 0 0 0;
+    }
+    //footer
 }
 @media(max-width:768px){
     .intro{
@@ -136,4 +141,12 @@
         font-size: 35px; 
     }
     //learning
+    //footer
+    .footer{
+        &-container{
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+    }
+    //footer
 }

@@ -44,3 +44,12 @@
         display: none;
     }
 }
+.header-active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: $dark;
+    z-index: 50;
+    transition: .5s;
+}

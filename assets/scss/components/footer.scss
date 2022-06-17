@@ -1,0 +1,31 @@
+.footer{
+    padding: 100px 0;
+    &-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &-body{
+        display: flex;
+        flex: 0 1 auto;
+    }
+    &-list{
+        display: flex;
+        flex-direction: column;
+        &__title{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: $white;
+            margin-bottom: 32px;
+        }
+        &__text{
+            font-weight: 450;
+            font-size: 14px;
+            line-height: 18px;
+            color: $white;
+            opacity: 0.6;
+            margin-bottom: 20px;
+            flex: 1 1 auto; 
+        }
+    }
+}

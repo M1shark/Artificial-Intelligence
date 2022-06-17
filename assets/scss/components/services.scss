@@ -1,0 +1,46 @@
+.services{
+    padding: 50px 0 ;
+    &-container{
+        padding: 0 15px;
+    }
+    .swiper-pagination{
+        &-bullet{
+            background-color: #2C3647;
+            opacity: 0.4;
+            &-active{
+                opacity: 1;
+            }
+        }
+    }
+    &-body{
+        margin-bottom: 60px;
+        background: #2C3647;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex: 1 1 auto;
+        &__img{
+            width: 73px;
+            height: 69px;
+            margin-bottom: 47px;
+        }
+        &__title{
+            font-weight: 700;
+            font-size: 25px;
+            line-height: 125%;
+            margin-bottom: 30px;
+            color: $grey;
+        }
+        &__text{
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 160%;
+            color: $grey;
+            flex: 1 1 auto;
+        }
+    }
+}
+
+
